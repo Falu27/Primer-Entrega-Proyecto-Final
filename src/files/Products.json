@@ -1,0 +1,92 @@
+[
+	{
+		"title": "TV 50 Smart",
+		"description": "Loren bla bla bla",
+		"price": 80000,
+		"thumbnail": "./img...",
+		"code": 10,
+		"stock": 6,
+		"id": 1
+	},
+	{
+		"title": "Tablet Mox",
+		"description": "Loren bla bla bla",
+		"price": 30000,
+		"thumbnail": "./img...",
+		"code": 20,
+		"stock": 10,
+		"id": 2
+	},
+	{
+		"title": "Xiaomi Note 12",
+		"description": "Loren bla bla bla",
+		"price": 125000,
+		"thumbnail": "./img...",
+		"code": 30,
+		"stock": 8,
+		"id": 3
+	},
+	{
+		"title": "Samsung Tab S6",
+		"description": "Tablet 10\". 4GB Ram. 64Gb Memory",
+		"price": 180000,
+		"thumbnail": "./...",
+		"code": 140,
+		"stock": 8,
+		"id": 4
+	},
+	{
+		"title": "Asus IdeaPad",
+		"description": "Notebook. 16GB Ram. 512GB Memory",
+		"price": 580000,
+		"thumbnail": "./...",
+		"code": 50,
+		"stock": 4,
+		"id": 5
+	},
+	{
+		"title": "Lenovo Pad",
+		"description": "Tablet Slim\". 4GB Ram. 64GB Memory",
+		"price": 80000,
+		"thumbnail": "./...",
+		"code": 60,
+		"stock": 5,
+		"id": 6
+	},
+	{
+		"title": "TV OLED 55",
+		"description": "TV 55\". OLED. Slim",
+		"price": 180000,
+		"thumbnail": "./...",
+		"code": 70,
+		"stock": 4,
+		"id": 7
+	},
+	{
+		"title": "Xiaomi Speak",
+		"description": "Parlante Xiaomi 10W. ",
+		"price": 10000,
+		"thumbnail": "./...",
+		"code": 80,
+		"stock": 12,
+		"id": 8
+	},
+	{
+		"title": "Iphone",
+		"description": "Iphone 8. 128GB. Repair",
+		"price": 40000,
+		"thumbnail": "./...",
+		"code": 90,
+		"stock": 1,
+		"id": 9
+	},
+	{
+		"title": "Monitor LG",
+		"description": "Monitor 29\". UltraWide. IPS",
+		"price": 50000,
+		"thumbnail": "./...",
+		"code": 100,
+		"stock": 7,
+		"id": 10
+	}
+]
