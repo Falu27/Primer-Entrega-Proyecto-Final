@@ -4,6 +4,7 @@ import carts from './routes/carts.js'
 import __dirname from './utils.js';
 import ProductManager from './managers/productManager.js';
 
+
 const app = express();
 const productManager = new ProductManager('src/files/Products.json')
 

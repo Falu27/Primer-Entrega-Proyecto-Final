@@ -3,90 +3,112 @@
 		"title": "TV 50 Smart",
 		"description": "Loren bla bla bla",
 		"price": 80000,
-		"thumbnail": "./img...",
-		"code": 10,
+		"thumbnails": ["./img..."],
+		"code": "tv10",
 		"stock": 6,
-		"id": 1
+		"id": 1,
+		"category":"Televisores",
+		"status": true
+
 	},
 	{
 		"title": "Tablet Mox",
 		"description": "Loren bla bla bla",
 		"price": 30000,
-		"thumbnail": "./img...",
-		"code": 20,
+		"thumbnails": ["./img..."],
+		"code": "tab1",
 		"stock": 10,
-		"id": 2
+		"id": 2,
+		"category":"Tablets",
+		"status": true
 	},
 	{
 		"title": "Xiaomi Note 12",
 		"description": "Loren bla bla bla",
 		"price": 125000,
-		"thumbnail": "./img...",
-		"code": 30,
+		"thumbnails": ["./img..."],
+		"code": "cel1",
 		"stock": 8,
-		"id": 3
+		"id": 3,
+		"category":"Celulares",
+		"status": true
 	},
 	{
 		"title": "Samsung Tab S6",
 		"description": "Tablet 10\". 4GB Ram. 64Gb Memory",
 		"price": 180000,
-		"thumbnail": "./...",
-		"code": 140,
+		"thumbnails": ["./..."],
+		"code": "tab2",
 		"stock": 8,
-		"id": 4
+		"id": 4,
+		"category":"Tablets",
+		"status": true
 	},
 	{
 		"title": "Asus IdeaPad",
 		"description": "Notebook. 16GB Ram. 512GB Memory",
 		"price": 580000,
-		"thumbnail": "./...",
-		"code": 50,
+		"thumbnails": ["./..."],
+		"code": "nb1",
 		"stock": 4,
-		"id": 5
+		"id": 5,
+		"category":"Notebooks",
+		"status": true
 	},
 	{
 		"title": "Lenovo Pad",
 		"description": "Tablet Slim\". 4GB Ram. 64GB Memory",
 		"price": 80000,
-		"thumbnail": "./...",
-		"code": 60,
+		"thumbnails": ["./..."],
+		"code": "nb2",
 		"stock": 5,
-		"id": 6
+		"id": 6,
+		"category":"Notebooks",
+		"status": true
 	},
 	{
 		"title": "TV OLED 55",
 		"description": "TV 55\". OLED. Slim",
 		"price": 180000,
-		"thumbnail": "./...",
-		"code": 70,
+		"thumbnails": ["./..."],
+		"code": "tv11",
 		"stock": 4,
-		"id": 7
+		"id": 7,
+		"category":"Televisores",
+		"status": true
 	},
 	{
 		"title": "Xiaomi Speak",
 		"description": "Parlante Xiaomi 10W. ",
 		"price": 10000,
-		"thumbnail": "./...",
-		"code": 80,
+		"thumbnails": ["./..."],
+		"code": "spk1",
 		"stock": 12,
-		"id": 8
+		"id": 8,
+		"category":"Audio",
+		"status": true
+		
 	},
 	{
 		"title": "Iphone",
 		"description": "Iphone 8. 128GB. Repair",
 		"price": 40000,
-		"thumbnail": "./...",
-		"code": 90,
+		"thumbnails": ["./..."],
+		"code": "cel2",
 		"stock": 1,
-		"id": 9
+		"id": 9,
+		"category":"Celulares",
+		"status": true
 	},
 	{
 		"title": "Monitor LG",
 		"description": "Monitor 29\". UltraWide. IPS",
 		"price": 50000,
-		"thumbnail": "./...",
-		"code": 100,
+		"thumbnails": ["./..."],
+		"code": "mon1",
 		"stock": 7,
-		"id": 10
+		"id": 10,
+		"category":"Monitores",
+		"status": true
 	}
 ]

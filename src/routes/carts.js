@@ -10,15 +10,22 @@ const cartsManager = new CartsManager('src/files/Carts.json');
 const products = productManager.getProducts();
 const carts = cartsManager.getCarts();
 
-router.get('/cid', async (req, res)=>{
+router.get('/:cid', async (req, res)=>{
     try{
         const cartId = req.params.cid;
         const allCarts = await carts;
         const myCart = allCarts.find((c)=> c.id == cartId);
+        if(cartId <= allCarts.length){
+            res.send(myCart);
+            
+        }else{
+            res.status(400).send(`The carts id${cid} no exist.`)
+        }
+        
+        
 
-        res.send(myCart);
     }catch(error){
-        return res.status(404).send({status: "Error", error:"Cart not found"});
+        return res.status(404).send({status: "Error", error:`This cart no exist.`});
     }
 })
 

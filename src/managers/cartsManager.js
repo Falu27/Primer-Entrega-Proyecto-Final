@@ -16,12 +16,12 @@ catch(error){
 }
 }
 
- getCarts = async()=>{
+getCarts = async()=>{
     
-        this.carts = JSON.parse(fs.readFileSync(this.path, 'utf-8'))
-        return this.carts
+    this.carts = JSON.parse(fs.readFileSync(this.path, 'utf-8'))
+    return this.carts
 
- }
+}
 
 newCart= async()=>{
     try{
@@ -46,7 +46,7 @@ newCart= async()=>{
     CartProducts = async (CartId, ProductId)=>{
         const carts = await this.getCarts();
         const cartNumber = carts.find((num)=> num.id == CartId);
-        const inCart = cartNumber.product.find((p)=> p.product == ProductId.product);
+        const inCart = cartNumber.products.find((p)=> p.product == ProductId.product);
         if(!inCart){
             cartNumber.products.push(ProductId);
         }else{

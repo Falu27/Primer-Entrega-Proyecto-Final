@@ -11,12 +11,12 @@ router.get('/', async (req, res)=>{
     try{
         const allProducts = await products;
         const limit = req.query.limit;
-        if(limit){
+        if(!isNaN(limit) && limit !== null && limit !== "" && limit>0){
             const filter = products.slice(0, limit);
-            res.send(filter)
+            res.send(filter) 
         }
         else{
-            res.send(allProducts)
+            res.status(400).send('Send a Number to limit products. Do not use negative numbers')
         }
 }catch(error){
     res.status(501).send('Products not found')
