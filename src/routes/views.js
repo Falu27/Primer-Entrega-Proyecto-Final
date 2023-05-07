@@ -5,6 +5,7 @@ const productManager = new ProductManager();
 const products = productManager.getProducts();
 
 const router = Router();
+export default router;
 
 router.get('/', async (req, res)=>{
     const allProducts = await products;
@@ -12,7 +13,5 @@ router.get('/', async (req, res)=>{
 });
 
 router.get('/realTimeProducts', async (req, res)=>{
-    res.render('realTimeProducts', {css: 'realTimeProductsCss'})
-});
-
-export default router;
+    res.render("realTimeProducts", {css: 'realTimeProductsCss'})
+})

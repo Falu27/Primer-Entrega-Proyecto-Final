@@ -15,10 +15,9 @@ app.engine('handlebars', handlebars.engine());
 app.set('views', `${__dirname}/views`);
 app.set('view engine', 'handlebars');
 
+app.use(express.static(`${__dirname}/public`))
 app.use(express.json());
-app.use(express.urlencoded({extended:true}));
-app.use(express.static(`${__dirname}/public`));
-
+app.use(express.urlencoded({extended:true}))
 
 app.use('/api/products', products);
 app.use('/api/carts', carts);
@@ -27,6 +26,17 @@ app.use('/', views);
 const server = app.listen(8080, ()=>console.log("Listening in port 8080"));
 const io = new Server(server);
 
-io.on('connection', socket=>{
+const renderRealTimeProducts = async (socket) => {
+    try {
+      const productManager = new ProductManager();
+      const products = await productManager.getProducts();
+      socket.emit("updateProducts", products);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+io.on('connection', (socket)=>{
     console.log('New socket conected')
+    renderRealTimeProducts(socket)
 })

@@ -3,112 +3,130 @@
 		"title": "TV 50 Smart",
 		"description": "Loren bla bla bla",
 		"price": 80000,
-		"thumbnails": ["https://tienda.personal.com.ar/images/Smart_TV_50_AU_7000_Front_min_976861b04b.png"],
+		"thumbnails": [
+			"https://tienda.personal.com.ar/images/Smart_TV_50_AU_7000_Front_min_976861b04b.png"
+		],
 		"code": "tv10",
 		"stock": 6,
 		"id": 1,
-		"category":"Televisores",
+		"category": "Televisores",
 		"status": true
-
 	},
 	{
 		"title": "Tablet Mox",
 		"description": "Loren bla bla bla",
 		"price": 30000,
-		"thumbnails": ["/img/Tablet.png"],
+		"thumbnails": [
+			"/img/Tablet.png"
+		],
 		"code": "tab1",
 		"stock": 10,
 		"id": 2,
-		"category":"Tablets",
+		"category": "Tablets",
 		"status": true
 	},
 	{
 		"title": "Xiaomi Note 12",
 		"description": "Loren bla bla bla",
 		"price": 125000,
-		"thumbnails": ["/img/Note12.png"],
+		"thumbnails": [
+			"/img/Note12.png"
+		],
 		"code": "cel1",
 		"stock": 8,
 		"id": 3,
-		"category":"Celulares",
+		"category": "Celulares",
 		"status": true
 	},
 	{
 		"title": "Samsung Tab S6",
 		"description": "Tablet 10\". 4GB Ram. 64Gb Memory",
 		"price": 180000,
-		"thumbnails": ["/img/TabS6.png"],
+		"thumbnails": [
+			"/img/TabS6.png"
+		],
 		"code": "tab2",
 		"stock": 8,
 		"id": 4,
-		"category":"Tablets",
+		"category": "Tablets",
 		"status": true
 	},
 	{
 		"title": "Asus TUF",
 		"description": "Notebook. 16GB Ram. 512GB Memory",
 		"price": 580000,
-		"thumbnails": ["/img/ideaPad.png"],
+		"thumbnails": [
+			"/img/ideaPad.png"
+		],
 		"code": "nb1",
 		"stock": 4,
 		"id": 5,
-		"category":"Notebooks",
+		"category": "Notebooks",
 		"status": true
 	},
 	{
 		"title": "Lenovo Pad",
 		"description": "Tablet Slim\". 4GB Ram. 64GB Memory",
 		"price": 80000,
-		"thumbnails": ["/img/lenovoPad.png"],
+		"thumbnails": [
+			"/img/lenovoPad.png"
+		],
 		"code": "nb2",
 		"stock": 5,
 		"id": 6,
-		"category":"Notebooks",
+		"category": "Notebooks",
 		"status": true
 	},
 	{
 		"title": "TV OLED 55",
 		"description": "TV 55\". OLED. Slim",
 		"price": 180000,
-		"thumbnails": ["/img/oLed.png"],
+		"thumbnails": [
+			"/img/oLed.png"
+		],
 		"code": "tv11",
 		"stock": 4,
 		"id": 7,
-		"category":"Televisores",
+		"category": "Televisores",
 		"status": true
 	},
 	{
 		"title": "Xiaomi Speak",
 		"description": "Parlante Xiaomi 10W. ",
 		"price": 10000,
-		"thumbnails": ["/img/xiaomiSpeak.png"],
+		"thumbnails": [
+			"/img/xiaomiSpeak.png"
+		],
 		"code": "spk1",
 		"stock": 12,
 		"id": 8,
-		"category":"Audio",
+		"category": "Audio",
 		"status": true
-		
 	},
 	{
 		"title": "Iphone",
 		"description": "Iphone 8. 128GB. Repair",
 		"price": 40000,
-		"thumbnails": ["/img/iPhone.png"],
+		"thumbnails": [
+			"/img/iPhone.png"
+		],
 		"code": "cel2",
 		"stock": 1,
 		"id": 9,
-		"category":"Celulares",
+		"category": "Celulares",
 		"status": true
 	},
 	{
 		"title": "Monitor LG",
 		"description": "Monitor 29\". UltraWide. IPS",
 		"price": 50000,
-		"thumbnails": ["/img/lgMonitor.png"],
+		"thumbnails": [
+			"/img/lgMonitor.png"
+		],
 		"code": "mon1",
 		"stock": 7,
 		"id": 10,
-		"category":"Monitores",
+		"category": "Monitores",
 		"status": true
 	}
 ]

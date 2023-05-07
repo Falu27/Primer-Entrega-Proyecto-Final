@@ -23,21 +23,21 @@ export default class ProductManager {
         return this.products
     }
 
-    addProduct= async({title, description, price, thumbnail, code , stock, status})=>{
+    addProduct= async({title, description, price, thumbnails, code , stock, status})=>{
         try{
         const products = this.getProducts();
         const product ={
             title,
             description,
             price,
-            thumbnail,
+            thumbnails,
             code,
             stock,
             status,
             
         };
 
-        if(!title || !description || !price || !thumbnail || !code || !stock){
+        if(!title || !description || !price || !thumbnails || !code || !stock){
             console.log("All fields are required.")
             return null;
         }
